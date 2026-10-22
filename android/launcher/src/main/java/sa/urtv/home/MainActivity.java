@@ -813,7 +813,7 @@ public class MainActivity extends Activity {
 
     /** This 4-day period's 5 hosted photos: the same Park-Miller draw as photoSet() in the screensaver page. */
     private String[] remotePhotos() {
-        String s = prefs().getString("photoIndex", "");
+           String s = "";
         if (s.isEmpty()) return new String[0];
         String[] all = s.split(",");
         java.util.Calendar c = java.util.Calendar.getInstance(java.util.TimeZone.getTimeZone("Asia/Riyadh"));
