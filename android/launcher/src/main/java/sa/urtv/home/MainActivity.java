@@ -778,7 +778,7 @@ public class MainActivity extends Activity {
         g.setGradientType(GradientDrawable.RADIAL_GRADIENT);
         g.setGradientCenter(0.5f, 0.78f);
         g.setGradientRadius(getResources().getDisplayMetrics().widthPixels * 0.62f);
-        g.setColors(new int[]{withAlpha(color, 0.5f), withAlpha(color, 0.14f), Color.TRANSPARENT});
+        g.setColors(new int[]{Color.TRANSPARENT, Color.TRANSPARENT, Color.TRANSPARENT});
         glow.setBackground(g);
     }
 
