@@ -978,7 +978,7 @@ function renderWeekPage(animate){
 let FORECAST = [];
 try{ FORECAST = JSON.parse(localStorage.getItem('forecast:' + location.hash) || '[]') || []; }catch(e){}
 let LIST_PAGE = 0;
-const PANEL_TITLE = {shows:'هذا الأسبوع', prayers:'مواقيت اليوم', forecast:'الأيام القادمة', matches:'مباريات فرقك'};
+const PANEL_TITLE = {shows:'هذا الأسبوع', prayers:'مواقيت اليوم', forecast:'الأيام القادمة', matches:'المباريات القادمة'};
 
 function renderPanel(animate){
   const ul = document.getElementById('week-list'), hd = document.getElementById('week-hd');
