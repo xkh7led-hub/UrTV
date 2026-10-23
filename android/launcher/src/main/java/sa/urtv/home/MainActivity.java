@@ -250,7 +250,7 @@ public class MainActivity extends Activity {
 
         title = text(34, "sans-serif-light", Color.WHITE);
         title.setShadowLayer(dp(18), 0, 0, 0x66000000);
-        title.setSingleLine(true);
+        title.setSingleLine(true); title.setVisibility(View.INVISIBLE);
         bottom.addView(title, new LinearLayout.LayoutParams(-2, -2));
         ((LinearLayout.LayoutParams) title.getLayoutParams()).setMargins(dp(8), 0, 0, dp(14));
 
